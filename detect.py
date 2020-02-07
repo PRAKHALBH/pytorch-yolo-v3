@@ -114,7 +114,7 @@ if __name__ ==  '__main__':
 
     #Set up the neural network
     print("Loading network.....")
-    model = Darknet(args.cfgfile)
+    model = Darknet(args.jpgfile)
     model.load_weights(args.weightsfile)
     print("Network successfully loaded")
     
